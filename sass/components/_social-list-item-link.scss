@@ -1,0 +1,9 @@
+.social-list-item-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: background-color var(--transition-dur-and-func);
+}

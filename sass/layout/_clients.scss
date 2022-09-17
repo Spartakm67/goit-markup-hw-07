@@ -4,10 +4,6 @@
   justify-content: center;
 }
 
-.clients-list-item-link:hover,
-.clients-list-item-link:focus {
-  border: 1px solid var(--accent-color);
-}
 .clients-list-item-link:hover .clients-list-icon,
 .clients-list-item-link:focus .clients-list-icon {
   fill: var(--accent-color);
@@ -21,6 +17,10 @@
   border: 1px solid var(--svg-icon-color);
   border-radius: 4px;
   transition: border var(--transition-dur-and-func);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 .clients-list-icon {
   justify-content: center;

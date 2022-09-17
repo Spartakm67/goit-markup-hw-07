@@ -8,9 +8,9 @@
   z-index: 100;
   transition: opacity var(--transition-dur-and-func),
     visibility var(--transition-dur-and-func);
-}
-.backdrop.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
+  &.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
 }

@@ -55,11 +55,13 @@
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--accent-color);
-}
+
 .menu-link.current::after {
   content: "";
   position: absolute;
@@ -77,11 +79,13 @@
   font-size: 14px;
   color: var(--secodary-text-color-theme-light);
   transition: color var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
-.mail:hover,
-.mail:focus {
-  color: var(--accent-color);
-}
+
 .phone {
   display: flex;
   align-items: center;
@@ -89,8 +93,8 @@
   font-size: 14px;
   color: var(--secodary-text-color-theme-light);
   transition: color var(--transition-dur-and-func);
-}
-.phone:hover,
-.phone:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }

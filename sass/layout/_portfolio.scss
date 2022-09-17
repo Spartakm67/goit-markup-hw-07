@@ -2,12 +2,14 @@
   display: block;
   color: var(--secodary-text-color-theme-light);
   transition: box-shadow var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
-.list-portfolio:hover,
-.list-portfolio:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
 .portfolio-header {
   font-size: 18px;
   line-height: 2;
@@ -28,13 +30,7 @@
   justify-content: center;
   margin-bottom: 50px;
 }
-.open-btn:hover,
-.open-btn:focus {
-  color: var(--primary-text-color-theme-dark);
-  background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+
 .open-btn {
   font-weight: 500;
   font-size: 16px;
@@ -48,6 +44,14 @@
   transition: color var(--transition-dur-and-func),
     background-color var(--transition-dur-and-func),
     box-shadow var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-text-color-theme-dark);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 }
 .cards-portfolio-list {
   display: flex;

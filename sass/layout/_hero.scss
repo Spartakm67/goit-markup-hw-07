@@ -42,9 +42,10 @@
   min-height: 50px;
   transition: color var(--transition-dur-and-func),
     background-color var(--transition-dur-and-func);
-}
-.hero-btn:hover,
-.hero-btn:focus {
-  color: var(--primary-text-color-theme-dark);
-  background-color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-text-color-theme-dark);
+    background-color: var(--accent-color);
+  }
 }

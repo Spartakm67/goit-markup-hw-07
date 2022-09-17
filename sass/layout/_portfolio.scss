@@ -34,10 +34,10 @@
 .open-btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.88;
-  align-items: center;
+  line-height: 1.63;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
+  align-items: center;
   border-radius: 4px;
   border: none;
   padding: 6px 22px;
@@ -53,6 +53,11 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
+
+.open-btn.current {
+  padding: 6px 25px;
+}
+
 .cards-portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -81,12 +86,13 @@
   transition: transform var(--transition-dur-and-func);
   color: var(--primary-text-color-theme-dark);
   background-color: var(--background-overlay);
+
+  .list-portfolio:hover &,
+  .list-portfolio:focus & {
+    transform: translateY(0%);
+  }
 }
 .img-portfolio-wrapper {
   position: relative;
   overflow: hidden;
-}
-.list-portfolio:hover .overlay,
-.list-portfolio:focus .overlay {
-  transform: translateY(0%);
 }

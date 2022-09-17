@@ -93,7 +93,7 @@ body {
 }
 
 /* Opened tab effect*/
-.page-nav .link.current {
+.page-navigation .link.current {
   color: var(--accent-color);
 }
 
@@ -153,7 +153,7 @@ body {
   align-items: center;
 }
 
-.page-nav {
+.page-navigation {
   display: flex;
   align-items: center;
 }

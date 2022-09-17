@@ -7,3 +7,15 @@
   align-items: center;
   transition: background-color var(--transition-dur-and-func);
 }
+.social-list-item-link:hover,
+.social-list-item-link:focus {
+  background-color: var(--accent-color);
+}
+.social-list-item-link:hover .social-list-icon,
+.social-list-item-link:focus .social-list-icon {
+  fill: var(--primary-text-color-theme-dark);
+}
+.social-list-icon {
+  fill: var(--svg-icon-color);
+  transition: fill var(--transition-dur-and-func);
+}

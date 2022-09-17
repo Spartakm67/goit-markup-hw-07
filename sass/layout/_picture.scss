@@ -1,0 +1,25 @@
+.section-three {
+  padding-top: 0px;
+}
+.picture-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.section-three-wrapper {
+  position: relative;
+}
+.section-three-header {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 27px 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--primary-text-color-theme-dark);
+}

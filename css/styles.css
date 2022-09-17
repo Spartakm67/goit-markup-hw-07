@@ -88,7 +88,7 @@ body {
 /* ===== Projects text&color styles ===== */
 
 /* === Header ===*/
-.page-header {
+/* .page-header {
   border: 1px solid #ececec;
 }
 .page-header-container {
@@ -113,10 +113,10 @@ body {
 .mail-svg {
   fill: currentColor;
   margin-right: 10px;
-}
+} */
 
 /* Logo blu part */
-.logo-header {
+/* .logo-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -126,17 +126,17 @@ body {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
-}
+} */
 
 /* Logo black part */
-.logo-header-studio {
+/* .logo-header-studio {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-}
+} */
 
 /* Header hidding */
 /* .visually-hidden {
@@ -151,7 +151,7 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 } */
-.menu-link {
+/* .menu-link {
   font-weight: 500;
   color: var(--primary-text-color-theme-light);
   transition: color var(--transition-dur-and-func);
@@ -197,11 +197,11 @@ body {
 .phone:hover,
 .phone:focus {
   color: var(--accent-color);
-}
+} */
 
 /* ======= Hero ======= */
 
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
@@ -230,7 +230,7 @@ body {
   margin-right: auto;
   margin-bottom: 30px;
 }
-/* Buttons */
+
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
@@ -250,7 +250,7 @@ body {
 .hero-btn:focus {
   color: var(--primary-text-color-theme-dark);
   background-color: var(--accent-color);
-}
+} */
 
 /* === Benefits section #2 ===*/
 /* Section two markup */
@@ -258,7 +258,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 } */
-.benefits-list {
+/* .benefits-list {
   display: flex;
 }
 
@@ -290,13 +290,13 @@ body {
 .section-two-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
+} */
 
 /* === Picture Section #3 ===*/
 
-.section-three {
+/* .section-three {
   padding-top: 0px;
-}
+} */
 /* .section-title {
   font-size: 36px;
   line-height: 1.17;
@@ -305,7 +305,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-light);
 } */
-.picture-list {
+/* .picture-list {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -326,9 +326,9 @@ body {
   text-transform: uppercase;
   background: rgba(47, 48, 58, 0.8);
   color: var(--primary-text-color-theme-dark);
-}
+} */
 /* === Team Section #4 === */
-.section-four {
+/* .section-four {
   background-color: var(--background-four-color);
 }
 .cards-list {
@@ -358,7 +358,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 16px;
-}
+} */
 /* .social-list {
   display: flex;
   column-gap: 10px;
@@ -374,7 +374,7 @@ body {
   align-items: center;
   transition: background-color var(--transition-dur-and-func);
 } */
-.social-list-item-link:hover,
+/* .social-list-item-link:hover,
 .social-list-item-link:focus {
   background-color: var(--accent-color);
 }
@@ -385,9 +385,9 @@ body {
 .social-list-icon {
   fill: var(--svg-icon-color);
   transition: fill var(--transition-dur-and-func);
-}
+} */
 /* ====== Clients section ====== */
-.clients-list {
+/* .clients-list {
   display: flex;
   column-gap: 30px;
   justify-content: center;
@@ -416,10 +416,10 @@ body {
   align-items: center;
   fill: var(--svg-icon-color);
   transition: fill var(--transition-dur-and-func);
-}
+} */
 /* ========== FOOTER ==========*/
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--bacground-text-color-theme-dark);
@@ -441,7 +441,7 @@ body {
   color: var(--primary-text-color-theme-dark);
 }
 
-/* Logo footer blu*/
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -451,7 +451,7 @@ body {
   color: var(--accent-color);
 }
 
-/* Logo footer white */
+
 .logo-footer-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -543,13 +543,13 @@ body {
 .footer-form-submit:hover,
 .footer-form-submit:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* ========== /FOOTER ============ */
 
 /* ========== PORTFOLIO ========== */
 
-.list-portfolio {
+/* .list-portfolio {
   display: block;
   color: var(--secodary-text-color-theme-light);
   transition: box-shadow var(--transition-dur-and-func);
@@ -636,11 +636,11 @@ body {
 .list-portfolio:hover .overlay,
 .list-portfolio:focus .overlay {
   transform: translateY(0%);
-}
+} */
 /* ===============/PORTFOLIO ============== */
 
 /* =============== BACKDROP ============ */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -655,17 +655,16 @@ body {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
+} */
 /* =============== /BACKDROP ============ */
 
 /* =============== MODAL WINDOW ========= */
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  /* height: 581px; */
   padding: 40px;
   background-color: var(--primary-text-color-theme-dark);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -692,11 +691,12 @@ body {
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
   fill: var(--accent-color);
-}
+} */
+
 /* =============== /MODAL WINDOW ========= */
 
 /* =============== MODAL FORM ========= */
-.modal-form-title {
+/* .modal-form-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -833,5 +833,5 @@ body {
 .modal-form-submit:focus {
   color: var(--primary-text-color-theme-dark);
   background-color: var(--accent-color);
-}
+} */
 /* =============== /MODAL FORM ========= */

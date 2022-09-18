@@ -18,9 +18,7 @@
   color: var(--primary-text-color-theme-light);
 }
 .potfolio-href {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(400, 16px, 30px);
   letter-spacing: 0.03em;
 }
 

@@ -1,7 +1,7 @@
 .page-header {
   border: 1px solid #ececec;
 }
-.page-header-container {
+.page-header__container {
   display: flex;
   align-items: center;
 }
@@ -19,8 +19,8 @@
   column-gap: 50px;
   margin-left: auto;
 }
-.phone-svg,
-.mail-svg {
+.phone__svg,
+.mail__svg {
   fill: currentColor;
   margin-right: 10px;
 }
@@ -47,7 +47,7 @@
   letter-spacing: 0.03em;
   color: #000000;
 }
-.menu-link {
+.menu__link {
   font-weight: 500;
   color: var(--primary-text-color-theme-light);
   transition: color var(--transition-dur-and-func);
@@ -62,7 +62,7 @@
   }
 }
 
-.menu-link.current::after {
+.menu__link.current::after {
   content: "";
   position: absolute;
   width: 100%;

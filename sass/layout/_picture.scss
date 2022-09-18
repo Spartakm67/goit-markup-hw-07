@@ -14,9 +14,7 @@
   bottom: 0;
   width: 100%;
   padding: 27px 0;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font();
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
